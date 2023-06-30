@@ -1,0 +1,31 @@
+/*noinspection CssUnusedSymbol*/
+.react-dropdown-select-item {
+  font-size: 14px;
+}
+
+.edit-cell {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+td:hover .edit-cell {
+  opacity: 1;
+  cursor: cell;
+}
+
+.collapsible-row-header td{
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+
+.collapsible-row-header:hover td {
+  opacity: 1;
+}
+
+/* Remove slow bootstrap collapsing animation */
+/*noinspection CssUnusedSymbol*/
+.collapse, .collapsing {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
